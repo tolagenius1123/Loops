@@ -1,5 +1,3 @@
-# Loops
-Topic on loops
 # Introduction to For Loops
 
 ## Overview
