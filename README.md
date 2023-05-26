@@ -9,7 +9,7 @@ In this tutorial, we will explore the logic behind a for loop and understand how
 
 To help you understand the concept of a for loop, let's consider a simple demonstration. Assuming you wanted to print out number 1 to 10. you would then have to write one line of code 10 times but what if you could do that with just three lines of code. That would be awesome! right? 😁 
 
-Here is an example of how you would manually print number 1 t0 10 on the console in JavaScript; 
+Here is an example of how you would manually print number 1 to 10 on the console in JavaScript; 
 
 ```JavaScript
 console.log("number " + 1);
