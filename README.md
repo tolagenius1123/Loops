@@ -9,7 +9,7 @@ In this tutorial, we will explore the logic behind a for loop and understand how
 
 To help you understand the concept of a for loop, let's consider a simple demonstration. Assuming you wanted to print out number 1 to 10. you would then have to write one line of code 10 times but what if you could do that with just three lines of code. That would be awesome! right? 😁 
 
-Instead of manually writing code to print from number 1 to 10 like the illustration below. 
+Here is an example of how you would manually print number 1 t0 10 on the console in JavaScript; 
 
 ```JavaScript
 console.log("number " + 1);
@@ -22,10 +22,8 @@ console.log("number " + 7);
 console.log("number " + 8);
 console.log("number " + 9);
 console.log("number " + 10);
-```
-In the illustration above we are concatenating a string "number" with a number 1 using the + operator and then we print it out using console.log function.
-Take a look at the output below
-```
+
+//Output
 number 1
 number 2
 number 3
@@ -37,24 +35,37 @@ number 8
 number 9
 number 10
 ```
-Although we got the result we were expecting, we had repeat a line of code 10 times. This is where a for loop comes in help you automate the process. Here's how it works
-in JavaScript:
-In this example, the `participants` list contains the names of the participants. The for loop iterates over the range of indices in the list using the `range(len(participants))` expression. During each iteration, the loop assigns the current index to the variable `i`, and the corresponding participant name is accessed using `participants[i]`. The code then prints the participant number and their name.
+In the example above we are concatenating a string "number" with a number 1 using the + operator and then we print it out using console.log function.
+Although we got the result we were expecting in the output, we had repeat a line of code 10 times. This is where a for loop comes in to help you automate the process. 
 
-When you run this code, it will display the following output:
+Here's how it works in JavaScript:
+```
+for (i = 1; i < 11; i++) {
+	console.log("number " + i);
+}
 
+//Output
+number 1
+number 2
+number 3
+number 4
+number 5
+number 6
+number 7
+number 8
+number 9
+number 10
 ```
-Participant 1: Alice
-Participant 2: Bob
-Participant 3: Charlie
-Participant 4: David
-```
+
+In this second example, we are using a for loop to print number 1 to 10 in just 3 lines of code. That is more efficient than writing 10 lines of code to achieve the same
+result.
+
 
 ## Visualization
 
 To illustrate the logic behind a for loop, let's consider an image analogy. Imagine you have a set of building blocks stacked on top of each other. Each block represents one iteration of the loop.
 
-![For Loop Visualization](https://example.com/for_loop_visualization.png)
+![For Loop Visualization]([https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tutorialstonight.com%2Fjs%2Fjs-for-loop&psig=AOvVaw2fnvyfwaCfeNGNdArZHVtd&ust=1685213607533000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIieu4nUk_8CFQAAAAAdAAAAABAF])
 
 In this image, you can see that the loop starts at the top and proceeds downwards, just like a stack of blocks. At each step, the loop performs the necessary actions, such as assigning the value to a variable or executing a block of code. Once the loop reaches the bottom, it finishes, and the program continues with the next instruction after the loop.
 
