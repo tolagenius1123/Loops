@@ -63,13 +63,18 @@ result.
 
 ## Visualization
 
-To illustrate the logic behind a for loop, let's consider an image analogy. Imagine you have a set of building blocks stacked on top of each other. Each block represents one iteration of the loop.
+To illustrate the logic behind a for loop, let's examine the image below.
 
-[![For Loop Visualization](https://www.tutorialstonight.com/assets/js/for-loop-example.webp)]
+![For Loop Visualization](https://www.tutorialstonight.com/assets/js/for-loop-example.webp)
 
-In this image, you can see that the loop starts at the top and proceeds downwards, just like a stack of blocks. At each step, the loop performs the necessary actions, such as assigning the value to a variable or executing a block of code. Once the loop reaches the bottom, it finishes, and the program continues with the next instruction after the loop.
+A typical for loop usually consist of three things;
+1. for keyword
+2. condition
+3. execution code
 
-Similarly, a for loop iterates over a specific range of values or a collection (like a list) and executes the specified code block for each iteration. It continues until it has completed the specified number of iterations or until it has processed all the items in the collection.
+In the image above, we have the for keyword, then the condition which is in a parenthesis (), the condition is initiated first by declaring a variable var i = 0; 
+followed by the condition i < 10; which states that as long as i is lesser than 10, i ++ keep adding 1 to i.
+The execution code is console.log("Hello, World!) so as long as i is lesser than 10, keep printing Hello, World! to the console. The result is having 10 lines of Hello, World! being printed on the console because as long as i is lesser than 10, it will keep printing.
 
 ## Conclusion
 
