@@ -65,7 +65,7 @@ result.
 
 To illustrate the logic behind a for loop, let's consider an image analogy. Imagine you have a set of building blocks stacked on top of each other. Each block represents one iteration of the loop.
 
-![For Loop Visualization]([https://www.tutorialstonight.com/assets/js/for-loop-example.webp)])
+[![For Loop Visualization](https://www.tutorialstonight.com/assets/js/for-loop-example.webp)]
 
 In this image, you can see that the loop starts at the top and proceeds downwards, just like a stack of blocks. At each step, the loop performs the necessary actions, such as assigning the value to a variable or executing a block of code. Once the loop reaches the bottom, it finishes, and the program continues with the next instruction after the loop.
 
