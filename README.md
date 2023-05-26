@@ -36,7 +36,7 @@ number 9
 number 10
 ```
 In the example above we are concatenating a string "number" with a number 1 using the + operator and then we print it out using console.log function.
-Although we got the result we were expecting in the output, we had repeat a line of code 10 times. This is where a for loop comes in to help you automate the process. 
+Although, we got the result we were expecting in the output, we had to repeat a line of code 10 times. This is where a for loop comes in to help you automate the process. 
 
 Here's how it works in JavaScript:
 ```
